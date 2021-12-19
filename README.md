@@ -1,14 +1,14 @@
-# PDF脱敏
+# 源码
 
 源码：https://github.com/lastwhispers/pdf-content-replace
 
 
-
 # 能干什么
 
-对PDF中敏感信息脱敏操作，比如将银行电子回执单内的收款账号、付款账号进行脱敏替换。
+基于java语言itext库，实现pdf内容替换。
+比如将银行电子回执单PDF内的收款账号、付款账号进行脱敏替换。
 
-<img src="asset/pdf.png" alt="pdf" style="zoom: 50%;" />
+<img src="https://github.com//lastwhispers/pdf-content-replace/raw/master/asset/pdf.png" alt="pdf" style="zoom: 50%;" />
 
 目前我也仅仅在银行电子回执单中使用过，支持如下银行
 
@@ -122,10 +122,7 @@ org.apache.commons.imaging.ImageReadException: Invalid marker found in entropy d
 ```
 
 如果你也出现这样的问题，可以使用jdk自带的`ImageIO.read`做备选方案
-
-![image-20211016152510413](asset/image-20211016152510413.png)
-
-
+![ImageIO.read](https://img-blog.csdnimg.cn/img_convert/1e3bb0830800d292923e5628cec9ef0a.png)
 
 ## itextpdf 的开源协议是AGPL！！！！！！
 
@@ -137,7 +134,8 @@ itextpdf 的协议是AGPL，这个需要注意！！！！！！
 
 
 
-
+# 参考
+https://blog.csdn.net/sishenkankan/article/details/53107195
 
 
 
